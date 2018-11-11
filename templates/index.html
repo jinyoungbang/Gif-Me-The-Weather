@@ -1,0 +1,34 @@
+
+<div class="main">
+{% extends "layout.html" %}
+{% block body %}
+    <div class="home">
+        <h2>Please input city,country to get the current weather</h2>
+            <form action="/result" method="POST"></form>
+                <textarea name="location"></textarea>
+                <button action="/result" type="submit" name="submit" >Get Weather</button>
+                <a href = "/result">LINK</a>
+        </form>
+    </div>
+{##}
+{#    <div class="data">#}
+{#        {% if final %}#}
+{#        <h3 style="font-size : 150%;">The Weather:</h3>#}
+{#        <ul>#}
+{#            <li style="font-size : 75%;"><a href="{{ data#}
+{#            }}"></a>: {{ data.text|urlize }}</li>#}
+{#        </ul>#}
+{#        {% endif %}#}
+{#      {% else %}#}
+{#        <p>#}
+{#            Want to get the weather and a fun ghipy?!#}
+{#        </p>#}
+{#    </div>#}
+
+   <div class="pageFooter">
+      <br>
+      <b style="position: relative; text-align : center; left : 87px;"><p style="color : white">Weather and Giphy:</p></b>
+      <b style="text-align: right"><p style="color : white">not yet</p></b>
+   </div>
+</div>
+{% endblock %}
