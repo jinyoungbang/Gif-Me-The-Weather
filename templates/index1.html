@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheet.css') }}">
+    </head>
+
+    
+    <body>
+        <h1>Enter your city!</h1>
+        <p>Format: City,Country Initials<p>
+        <form method="POST" action="/result">
+            <div class="form">
+                <input type="text" name="location">
+            </div>
+            <input class="button" type="submit" value="submit">
+            
+        </form>
+
+    </body>
+</html>
