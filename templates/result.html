@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+    <div class="data">
+    {% block body %}
+        {% if final %}
+        <h3 style="font-size : 150%;">The Weather:</h3>
+        <ul>
+            <li style="font-size : 75%;"><a href="{{ data
+            }}"></a>: {{ data.text|urlize }}</li>
+        </ul>
+        {% endif %}
+      {% else %}
+        <p>
+            Want to get the weather and a fun ghipy?!
+        </p>
+    {% end block %}
+    </div>
+    
