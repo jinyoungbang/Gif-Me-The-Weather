@@ -36,6 +36,7 @@ def home():
     wind = w.get_wind()['speed']
     final = (temp['temp'], hum, wind)
     print(final)
+
     return str(final)
 
 
