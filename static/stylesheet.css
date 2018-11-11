@@ -80,7 +80,15 @@ body{
     font-family:'Nanum Gothic', sans-serif;
     margin-top:100px;
     color:#fff;
-    font-size:55px;
+    font-size:40px;
+    text-align:center;
+    text-transform:uppercase;
+  }
+
+  h1s.title {
+    font-family:'Nanum Gothic', sans-serif;
+    color:#fff;
+    font-size:60px;
     text-align:center;
     text-transform:uppercase;
   }
