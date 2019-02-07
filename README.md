@@ -16,7 +16,9 @@ We originally wanted to work with Twitter and Instagram's API, but realized that
 Although a small project, we're really proud that we managed to finish the project on time, and created something feasible.
 
 # What we learned
-We learned how to make API calls, how to use data from another source and use it to our advantage.
+- how to make API calls,
+- how to use data from another source and use it to our advantage,
+
 
 # What's next for Gif Me The Weather
 We would improve the UI of the website and definitely add more functions to weather interact as right now, we are only showing temperature.
